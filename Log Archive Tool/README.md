@@ -21,7 +21,7 @@ This Log Archive Tool helps in archiving and cleaning up log files. It supports 
 
 ### Windows
 
-- Windows PowerShell (for `.ps1` script execution)
+- Windows PowerShell (for `.ps1` script execution) Run as Administrator
 - Git Bash, WSL (Windows Subsystem for Linux), or Cygwin (for `.sh` script execution)
 - Task Scheduler (for automation)
 
@@ -57,7 +57,7 @@ This Log Archive Tool helps in archiving and cleaning up log files. It supports 
    ```
 3. Run the script:
    ```powershell
-   .\log-archive-tool.ps1 -LogPath "C:\path\to\logs" -DaysToKeep 7 -BackupDays 30
+   .\log-archive-tool.ps1 -LogDir "C:\path\to\logs" -DaysToKeepLogs 7 -DaysToKeepBackups 30
    ```
 
 #### Using Git Bash/WSL
